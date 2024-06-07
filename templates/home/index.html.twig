@@ -1,0 +1,11 @@
+{# templates/home/index.html.twig #}
+{% extends 'base.html.twig' %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block body %}
+<h1>Welcome to the Home Page</h1>
+<p>This is your home page content.</p>
+
+<a href="{{ path('app_destination_index') }}">Go to Destination Page </a>
+{% endblock %}
